@@ -1,0 +1,76 @@
+.App{
+    width: 450px;
+    height: 590px;
+    margin: 50px auto 15% auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 14px 2px lightblue;
+    animation: Shinning 10s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    
+}
+
+
+@keyframes Shinning {
+
+     0%{
+        box-shadow: 0px 0px 14px 1px lightblue;
+    }
+    50%{
+        box-shadow: 0px 0px 14px 2px lightblue;
+    } 
+    100%{
+        box-shadow: 0px 0px 14px 1px lightblue;
+    }
+}
+
+.AppBody{
+    padding-top: 15px;
+    height: 100%;
+}
+
+.Header{
+    margin-bottom: 15px;
+}
+.Header input{
+    
+    width: 287px;
+    height: 40px;
+
+}
+.Header Label{
+    font-size: 34px;
+
+}
+.Header button{
+    margin-left: 6px;
+    height: 72px;
+    width: 100px;
+    font-size: 40px;
+background-color: #00534E;
+
+}
+
+.Content{
+    display: flex;
+}
+.Content button{
+    margin: 3px;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+}
+.Operators{
+    display: flex;
+    flex-direction: column;;
+}
+
+.Operators button{
+    background-color: #207b75;
+}
+.numbers button{
+    background-color: #1fb8ae;
+}
+

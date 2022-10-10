@@ -1,0 +1,24 @@
+.GameButton  {
+width: 215px;
+height: 215px;
+border-radius: 0px 0px 0px 0px;
+border: 1px solid rgb(86, 130, 86);
+}
+.GameButton img{
+    width: 50%;
+    height: 50%;
+
+}
+
+.CanClick:hover{
+    cursor: pointer;
+    transform: scale(1.1);   
+    border-radius: 15px; 
+    transition: 1s;
+
+}
+
+.ClickAnimation {
+    transform: scale(1);   
+    transition: 1s;
+}
