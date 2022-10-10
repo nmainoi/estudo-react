@@ -44,7 +44,7 @@ export function TicTacToe() {
 
     return (
         <>
-            <div className="main">
+            <div className="mainArea">
                 <div className="gameArea">
                     <div onClick={() => gameStart()}  className='header'><label >{GameState.toString()}</label></div>
                     <div className="playAbleArea">
